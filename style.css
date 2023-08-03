@@ -6,8 +6,7 @@ body {
     text-align: center;
     font-family: 'Roboto', arial;
 }
-
-
+/* Header & Navigation Bar */
 .header {
     display: flex;
     background-color: #1F2937;
@@ -22,7 +21,6 @@ body {
     font-weight: bolder;
 }
 
-
 .links  {
     display: flex;
     margin-left: auto;
@@ -30,8 +28,19 @@ body {
     font-size: 18px;
     list-style-type: none;
     text-decoration: none;
+    gap: 20px;
 }
 
+/* This website is awesome */
+
+.container {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
 
 .footer {
     justify-content: center;
